@@ -17,8 +17,6 @@ public class New {
                 put("A", "B");
             }
         };
-        aaa
-        aaa
         System.out.println(a.get("A"));
 
 
