@@ -12,7 +12,11 @@ import java.util.*;
 public class New {
 
     public static void main(String[] args) {
-        Map<String, String> a = new HashMap<String, String>().put("A", "B");
+        Map<String, String> a = new HashMap<String, String>() {
+            {
+                put("A", "B");
+            }
+        };
         System.out.println(a.get("A"));
 
 
