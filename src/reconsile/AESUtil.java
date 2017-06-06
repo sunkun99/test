@@ -19,7 +19,7 @@ import org.bouncycastle.jce.provider.BouncyCastleProvider;
 
 /**
  * @author kun.sun 
- * aes加密工具类
+ * aes加密工具类11
  */
 public class AESUtil {
 //beta
